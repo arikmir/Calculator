@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CALCULATOR</title>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="design.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Calistoga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>CALCULATOR</h1>
+
+    <form name="calc"></form>
+    <input readonly type="text" id="calculateField" />
+    <!-- <input readonly type="text" id="historyField" /> -->
+    <table>
+      <tr>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="7"
+            onclick="handleClick('7', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="8"
+            onclick="handleClick('8', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="9"
+            onclick="handleClick('9', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="C"
+            onclick="handleClick('C', 'CLEAR')"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="4"
+            onclick="handleClick('4', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="5"
+            onclick="handleClick('5', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="6"
+            onclick="handleClick('6', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="/"
+            onclick="handleClick('/', 'OPERATOR')"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="1"
+            onclick="handleClick('1', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="2"
+            onclick="handleClick('2', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="3"
+            onclick="handleClick('3', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="X"
+            onclick="handleClick('X', 'OPERATOR')"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="0"
+            onclick="handleClick('0', 'NUMBER')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="+"
+            onclick="handleClick('+', 'OPERATOR')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="-"
+            onclick="handleClick('-', 'OPERATOR')"
+          />
+        </td>
+        <td>
+          <input
+            type="button"
+            id="btnChange"
+            value="="
+            onclick="handleClick('=', 'RESULT')"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <div id="history" name="myHistory">
+      <!-- <input type="text" id="historyField" /> -->
+    </div>
+  </body>
+</html>

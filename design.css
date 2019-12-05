@@ -1,0 +1,38 @@
+#btnChange {
+  color: blueviolet;
+  text-shadow: 1px 1px 1px black;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin: 10px;
+  font-family: "Calistoga", cursive;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Calistoga", cursive;
+  background-color: wheat;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px rgb(228, 17, 17);
+  font-size: 80px;
+  align-self: center;
+}
+body {
+  width: 230px;
+  margin: 0 auto;
+}
+
+#calculateField {
+  font-family: "Calistoga", cursive;
+  color: brown;
+}
+
+#historyField {
+  height: 250px;
+  width: 250px;
+}
